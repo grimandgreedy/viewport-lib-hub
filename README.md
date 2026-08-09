@@ -20,12 +20,15 @@ Crates that extend viewport-lib through its `ItemTypePlugin` / `RuntimePlugin` t
 - **hamilton_engine**
   XPBD rigid-body + soft-body physics `RuntimePlugin`.
 
-## Helpers
+## Helper crates
 
 Reusable libraries. These stand on their own and avoid pulling in the renderer where they can.
 
 - **[viewport-lib-io](https://github.com/grimandgreedy/viewport-lib-io)**
   File-format loaders and exporters. Decodes source files into neutral CPU-side data that several downstream paths can reuse, with no dependency on the viewport-lib runtime or upload structs.
+
+- **[viewport-lib-lightbake](https://github.com/grimandgreedy/viewport-lib-lightbake)**
+  Offline lightmap bake tools: UV1 unwrapping and atlas packing via xatlas, plus edge-aware denoise and encode into a neutral lightmap type. CPU-only; the GPU G-buffer and GI solve steps live in viewport-lib, which it uses only as a dev-dependency.
 
 - **tetmesh_kit**
   Tetrahedral mesh construction: a surface/implicit voxelizer, STL loader, validator, and surface extraction. Renderer- and physics-agnostic; depends only on `glam` and `viewport-lib`.
