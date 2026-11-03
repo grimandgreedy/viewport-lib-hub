@@ -12,8 +12,16 @@ Crates that extend viewport-lib through its `ItemTypePlugin` / `RuntimePlugin` t
 - **[viewport-lib-terrain](https://github.com/grimandgreedy/viewport-lib-terrain)**
   Heightmap and splatmap terrain as an `ItemTypePlugin`. Quadtree LOD with per-patch decimation and crack-hiding skirts, frustum culling at patch granularity, and eight surface layers blended on the GPU through two splatmaps.
 
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/grimandgreedy/viewport-lib-terrain/master/assets/terrain.jpg" alt="viewport-lib-terrain" width="240" />
+  </p>
+
 - **[viewport-lib-wind](https://github.com/grimandgreedy/viewport-lib-wind)**
   Smooth, cyclical wind-like motion for meshes: geometry sways and ripples the way grass, foliage, and banners move in a breeze.
+
+  <p align="center">
+    <img src="https://github.com/grimandgreedy/viewport-lib-wind/blob/master/assets/wind.gif?raw=true" alt="viewport-lib-wind" width="240" />
+  </p>
 
 - **[rapier-viewport-plugin](https://github.com/grimandgreedy/rapier-viewport-plugin)**
   [Rapier 3D](https://rapier.rs) physics as a `RuntimePlugin`.
@@ -25,8 +33,16 @@ Interactive widgets for viewport-lib.
 - **[viewport-lib-gizmo](https://github.com/grimandgreedy/viewport-lib-gizmo)**
   A move / rotate / scale transform gizmo. Hit-tests the handles, turns drags and G / R / S keyboard sessions into transforms, and builds overlay items for the renderer. Builds overlay items to be submitted to the vpl frame.
 
+  <p align="center">
+    <img src="https://github.com/grimandgreedy/viewport-lib-gizmo/blob/master/assets/gizmo2.png?raw=true" alt="viewport-lib-gizmo" width="240" />
+  </p>
+
 - **[viewport-lib-axis-gizmo](https://github.com/grimandgreedy/viewport-lib-axis-gizmo)**
   A configurable axes indicator: a triad or a CAD view cube that shows the world axes as the camera sees them and reports the view the user clicks. Builds overlay items to be submitted to the vpl frame.
+
+  <p align="center">
+    <img src="https://github.com/grimandgreedy/viewport-lib-axis-gizmo/blob/master/assets/axis-gizmo.png?raw=true" alt="viewport-lib-axis-gizmo" width="240" />
+  </p>
 
 ## Helper crates
 
