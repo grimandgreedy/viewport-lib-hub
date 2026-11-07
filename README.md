@@ -20,7 +20,7 @@ Crates that extend viewport-lib through its `ItemTypePlugin` / `RuntimePlugin` t
   Smooth, cyclical wind-like motion for meshes: geometry sways and ripples the way grass, foliage, and banners move in a breeze.
 
   <p align="center">
-    <img src="https://raw.githubusercontent.com/grimandgreedy/viewport-lib-wind/refs/heads/main/assets/wind.gif" alt="viewport-lib-wind" width="240" />
+    <img src="https://raw.githubusercontent.com/grimandgreedy/viewport-lib-wind/refs/heads/master/assets/wind.gif" alt="viewport-lib-wind" width="240" />
   </p>
 
 - **[rapier-viewport-plugin](https://github.com/grimandgreedy/rapier-viewport-plugin)**
